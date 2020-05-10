@@ -1,0 +1,64 @@
+<html><head>
+<title>Help: Summary: General Mechanics: World Interaction: Item Manipulation: Multiple Items</title>
+<link href="css/help.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div style="overflow:visible"><img src="images/Grendels_Revenge_Help.png"/></div>
+<div style="z-index:1;position:absolute;left:50;top:60;width:480px;">
+<h2 align="left">Summary: <a href="help_general.html">General Mechanics</a>: <a href="help_general_interaction.html">World Interaction</a>: <a href="help_interaction_items.html">Item Manipulation</a>: <a href="help_interaction_items_multiple_items.html">Multiple Items</a></h2>
+<p align="center"><img align="bottom" height="21" src="images/spacer.gif" width="430"/></p>
+<br/>
+<h3>Dealing with Multiple Items</h3>
+ 
+<p>
+ 
+</p><p>
+ Often you will be in a situation that allows you to choose between multiple items. All items in a room are numbered, so that you may access any of them. The parser will allow your character to select from an unlimited number of items (e.g., get 20 sword, takes the 20th sword in your environment). This works for all commands and verbs. You can 'open 2 door' or 'wink 3 ogre'. 
+</p><p>
+ Currently, the parser matches all parts of an object's name, so 'get leath' could find 'a leather sack' or 'a piece of leather' depending on which one was "first" in your environment. 
+</p><p>
+ 
+</p><p>
+ The parser orders your character's environment according to the following priority: 
+</p><ol>
+ 
+<li>Other Users 
+</li><li>Things in Hand 
+</li><li>Things Worn 
+</li><li>Things in Room 
+</li></ol>
+ 
+<p>
+ 
+</p><p>
+ Currently, the parser matches all parts of an object's name, so 'get leath' could find 'a leather sack' or 'a piece of leather' depending on which one was first in your environment. 
+</p><p>
+ 
+</p><p>
+ You may obtain a list of all items in your current location by using the match command. Use <i>match &lt;word&gt;</i> to see all items in your environment and their corresponding numbers that match with that word (like a monster type, or an item). A useful feature built into this system is the ability to reference something with the word "<i>my</i>." This will override the usual parser and only attempt to match things that are in your inventory. A sample match follows: 
+</p><p>
+ 
+</p><p>
+You type: <tt>match robe</tt> <tt> 
+</tt></p><p><tt>
+You see: 
+</tt></p><blockquote><table border="0" cols="2">
+
+<tbody><tr><td> Object</td><td> Location</td></tr>
+<tr><td>1. A robe</td><td>a tunnel</td></tr>
+<tr><td>2. A robe</td><td>a tunnel</td></tr>
+<tr><td>3. A simple woolen robe</td><td>a tunnel</td></tr>
+<tr><td>4. A robe</td><td>a tunnel</td></tr>
+<tr><td>5. A robe</td><td>a tunnel</td></tr>
+<tr><td>6. A robe</td><td>a tunnel</td></tr>
+<tr><td>7. A robe</td><td>a tunnel</td></tr>
+</tbody></table></blockquote><tt>
+</tt><br/>
+<p></p><hr noshade="" size="1"/><p align="center"><a href="help_general_items_give_get.html">Giving/Getting</a> | <a href="help_general_items_parser.html">Parser</a> | <a href="help_general_items_wearing.html">Wearing</a> | <a href="help_general_items_wielding.html">Wielding</a> | Multiple Items </p><p>
+</p><p align="center"><img align="bottom" height="21" src="images/spacer.gif" width="430"/></p>
+<form action="/bin/helpsearch" method="GET">Search help: <input name="txt" type="text"/> <input type="submit" value="Search"/></form>
+<p align="center"><img align="bottom" height="21" src="images/spacer.gif" width="430"/></p>
+<font size="-1"><a href="http://grendelsrevenge.skotos.net/" target="_new">Home</a> | <a href="help_overview.html">Help Summary</a>
+<br/><br/></font><p></p><center><font size="-2">Copyright ©1996-2002, <a href="http://www.worlds-apart.com/" target="_new">Worlds Apart Productions, LLC</a></font></center><p></p>
+</div>
+</body></html>
